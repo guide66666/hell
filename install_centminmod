@@ -1,0 +1,10 @@
+#!/bin/bash
+yum -y install git wget nano bc unzip
+cd /usr/local/src
+git clone https://github.com/centminmod/centminmod.git centminmod
+cd centminmod
+
+
+ns1.domain (ns1.music.us)
+ns2.domain (ns2.music.us)
+
