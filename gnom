@@ -1,0 +1,5 @@
+#!/bin/bash
+yum group list
+yum group install "GNOME Desktop" "Graphical Administration Tools"
+yum groupinstall "Server with GUI"
+ln -sf /lib/systemd/system/runlevel5.target /etc/systemd/system/default.target
